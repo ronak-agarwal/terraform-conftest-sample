@@ -1,0 +1,7 @@
+---
+# A list of strings representing required tags that must exist in Terraform Azure resources.
+minimum_required_tags_keys:
+  - organization
+  - business_unit
+  - itservice
+  - environment
