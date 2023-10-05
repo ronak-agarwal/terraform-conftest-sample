@@ -335,15 +335,15 @@
     {
       "resource": "azurerm_resource_group.rg",
       "attribute": [
-        "name"
+        "location"
       ]
     },
     {
       "resource": "azurerm_resource_group.rg",
       "attribute": [
-        "location"
+        "name"
       ]
     }
   ],
-  "timestamp": "2023-10-05T16:33:54Z"
+  "timestamp": "2023-10-05T19:34:53Z"
 }
