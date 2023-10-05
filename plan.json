@@ -107,8 +107,9 @@
           "managed_by": null,
           "name": "rg-demo-opa",
           "tags": {
+            "role": "xxx",
             "business_unit": "core",
-            "environment": "staging",
+            "environment": "dev",
             "itservice": "xyz",
             "organization": "abc"
           },
