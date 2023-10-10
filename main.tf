@@ -12,14 +12,14 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-demo-opa"
-  location = "westeurope"
+  name     = var.resource_group_name
+  location = var.location
 
-    tags = {
-    organization = "abc"
+  tags = {
+    organization  = "abc"
     business_unit = "core"
-    itservice    = "xyz"
-    environment = "staging"
+    itservice     = "xyz"
+    environment   = "staging"
   }
 }
 
@@ -32,9 +32,9 @@ resource "azurerm_storage_account" "storage" {
   enable_https_traffic_only = false #true
 
   tags = {
-    organization = "abc"
+    organization  = "abc"
     business_unit = "core"
-    itservice    = "xyz"
-    environment = "staging"
+    itservice     = "xyz"
+    environment   = "staging"
   }
 }
